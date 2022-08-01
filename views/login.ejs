@@ -1,0 +1,16 @@
+<%- include('./header.ejs') %> 
+    
+<div class="container d-flex flex-column align-items-center mt-5 ">
+    <div >
+    <h5>logIn</h5>
+    <form action="/login" method="post">
+        <label for="username">username</label>
+        <input class="form-control mt-2" type="text" name = 'username' id="username">
+        <label for="password">password</label>
+        <input class="form-control mt-2" type="password" name = 'password' id="password">
+        <button class="btn btn-info mt-2 border border-dark" type="submit">log In</button>
+    </form>
+</div>
+</div>
+
+<%- include('./footer.ejs') %>
